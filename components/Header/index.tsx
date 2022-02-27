@@ -77,7 +77,7 @@ export const Header = () => {
                   as={'h1'}
                   fontSize={'xl'}
                   display={{ base: 'none', md: 'block' }}>
-                  <TextUnderline>Chakra</TextUnderline> Templates
+                  <TextUnderline>Divyarth</TextUnderline> Infotech
                 </Heading>
               </Stack>
             </Link>

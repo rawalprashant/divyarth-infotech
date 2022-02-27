@@ -61,7 +61,7 @@ export const HeroComponents = () => {
           zIndex={4 - i}>
           <Image
             alt={'Component Placeholder'}
-            src={`/images/component-${i + 1}.svg`}
+            src={`/images/home_header_img.svg`}
           />
         </MotionBox>
       ))}

@@ -14,7 +14,7 @@ export interface NavItem {
 
 export const NAV_ITEMS: Array<NavItem> = [
   {
-    label: 'Templates',
+    label: 'Services',
     children: data.map((category) => ({
       label: category.name,
       subLabel: category.subLabel,
@@ -22,15 +22,15 @@ export const NAV_ITEMS: Array<NavItem> = [
     })),
   },
   {
-    label: 'Contribute',
+    label: 'Technologies',
     href: CONTRIBUTE_LINK,
   },
   {
-    label: 'GitHub',
+    label: 'About Us',
     href: GITHUB_LINK,
   },
   {
-    label: 'Discord',
+    label: 'Blog',
     href: DISCORD_INVITE_LINK,
   },
 ];

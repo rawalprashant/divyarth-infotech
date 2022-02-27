@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Coding" transform="translate(7200 -2524)">
+    <rect id="developers" width="70" height="70" rx="6" transform="translate(-7200 2524)" fill="#ebebeb"/>
+    <g id="coding_1_" data-name="coding (1)" transform="translate(-7185 2500.106)">
+      <path id="Path_925" data-name="Path 925" d="M291.488,113.785a1.458,1.458,0,0,1-1.06-2.459l8.447-8.952-8.447-8.952a1.458,1.458,0,0,1,2.119-2l9.4,9.954a1.45,1.45,0,0,1,0,2l-9.4,9.954A1.483,1.483,0,0,1,291.488,113.785Z" transform="translate(-261.839 -43.396)" fill="#00bbd3"/>
+      <path id="Path_926" data-name="Path 926" d="M10.86,113.785a1.451,1.451,0,0,1-1.06-.457L.4,103.374a1.45,1.45,0,0,1,0-2l9.4-9.954a1.458,1.458,0,0,1,2.119,2l-8.457,8.952,8.447,8.952a1.458,1.458,0,0,1-1.05,2.459Z" transform="translate(0 -43.396)" fill="#00bbd3"/>
+      <path id="Path_927" data-name="Path 927" d="M171.727,75.064a1.734,1.734,0,0,1-.224-.019,1.466,1.466,0,0,1-1.225-1.662l4.471-29.248a1.46,1.46,0,0,1,2.887.437L173.166,73.82A1.452,1.452,0,0,1,171.727,75.064Z" transform="translate(-153.713)" fill="#00bbd3"/>
+    </g>
+  </g>
+</svg>

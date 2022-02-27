@@ -9,7 +9,7 @@ export const TextUnderline = ({ children }: TextUnderlineProps) => {
   return (
     <Box
       as={'span'}
-      color={useColorModeValue('green.400', 'green.300')}
+      color={useColorModeValue('red.400', 'red.300')}
       position={'relative'}
       zIndex={10}
       _after={{
@@ -19,7 +19,7 @@ export const TextUnderline = ({ children }: TextUnderlineProps) => {
         bottom: 0,
         w: 'full',
         h: '30%',
-        bg: useColorModeValue('green.100', 'green.900'),
+        bg: useColorModeValue('red.100', 'red.900'),
         zIndex: -1,
       }}>
       {children}
