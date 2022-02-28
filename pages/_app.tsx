@@ -7,7 +7,6 @@ import NProgress from 'nprogress';
 import splitbee from '@splitbee/web';
 
 import { theme } from '../theme';
-import { SEO } from '@/components/SEO';
 import { ThemeEditorProvider } from '@hypertheme-editor/chakra-ui';
 import '../styles/globals.css'
 
@@ -18,22 +17,18 @@ Router.events.on('routeChangeError', () => NProgress.done());
 const inIframe = () => window.location !== window.parent.location;
 
 function App({ Component, pageProps, router }: AppProps) {
-  const isTemplate = router.asPath.startsWith('/templates/');
-
+  
   useEffect(() => {
     // Do not initialize splitbee for iframe previews
     if (!inIframe()) {
       splitbee.init();
     }
 
-    // Necessary because otherwise 100% body height will break the template preview
-    document.body.classList.add(isTemplate ? 'template' : 'body');
   }, []);
 
   return (
     <ChakraProvider theme={theme}>
       <ThemeEditorProvider>
-        {isTemplate && <SEO />}
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />

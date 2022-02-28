@@ -41,8 +41,8 @@ const PrivacyPolicy = () => {
                         <Text fontWeight={700} fontSize={{ md: 'lg' }} mb={4}>3. Refunds</Text>
                         <Text color={'gray.500'} fontSize={{ md: 'lg' }} mb={4} textAlign={'justify'}>
                         In the event that you purchase one of our plans or product and you are not satisfied with our Services, you may request a refund up to 30 days following your purchase by sending us an e-mail at contact@divyarthinfotech.com containing your Transaction ID. At the expiration of the 30-day period, you understand and agree that no refunds shall be available.
-                        In case of any issues or conflict with your website or theme, you must allow enough time and information to fix the issue, fail to provide such information and without your co-operation it's not possible to fix issues and in such case refund will not be possible.
-                        No refunds will be given except in cases where the purchased product does not perform correctly on your hosting provider’s servers. Such server issues must be reported to us and that we are given reasonable time to attempt to provide a fix, where possible.
+                        In case of any issues or conflict with your website or theme, you must allow enough time and information to fix the issue, fail to provide such information and without your co-operation it&#39;s not possible to fix issues and in such case refund will not be possible.
+                        No refunds will be given except in cases where the purchased product does not perform correctly on your hosting provider&#39;s servers. Such server issues must be reported to us and that we are given reasonable time to attempt to provide a fix, where possible.
                         </Text>
                         
                         <Text fontWeight={700} fontSize={{ md: 'lg' }} mb={4}>4. Warranty</Text>
@@ -62,7 +62,7 @@ const PrivacyPolicy = () => {
                         
                         <Text fontWeight={700} fontSize={{ md: 'lg' }} mb={4}>7. Support</Text>
                         <Text color={'gray.500'} fontSize={{ md: 'lg' }} mb={4} textAlign={'justify'}>
-                        Divyarth Infotech’s subscription memberships, annual memberships and products come with unlimited support for product features for the period of 1 year or active membership or active duration. That support may come through any form of communication offered by Divyarth Infotech, which may include but is not limited to: forms, forums, support tickets and email. We mainly provide technical support for Divyarth Infotech products through our Support portal. The available forms of support will be outlined on the support tab in the member dashboard, which is available to active members.
+                        Divyarth Infotech&#39;s subscription memberships, annual memberships and products come with unlimited support for product features for the period of 1 year or active membership or active duration. That support may come through any form of communication offered by Divyarth Infotech, which may include but is not limited to: forms, forums, support tickets and email. We mainly provide technical support for Divyarth Infotech products through our Support portal. The available forms of support will be outlined on the support tab in the member dashboard, which is available to active members.
                         Support will not be provided for third-party plugins/modules/extensions. Support will not be provided for customization of theme layout beyond those customization options introduced by the theme through the theme options panels or post-meta options on post/page (custom post-type) editors. We provide paid customization services (subject to feasibility). Please submit your requests for customization on default coding or CSS via email to contact@divyarthinfotech.com
                         </Text>
                         
@@ -100,12 +100,12 @@ const PrivacyPolicy = () => {
                         The following actions/activities are not permitted on our Website:
                         Content: You may not use any of our themes / product in a way that infringes any third party right or violates any law or contractual duty;
                         Fraud / unlawful use: You may not use our Website for any unlawful purposes or to conduct illegal activities;
-                        Multiple accounts: To prevent fraud and abuse, Users are limited to one active account. Any additional account determined to be created to circumvent guidelines, promote competitive advantages, or mislead the Divyarth Infotech community will be disabled. Mass account creation may result in disabling of all related accounts. Note: any violations to Divyarth Infotehch’s Terms and Conditions is cause for permanent suspension of all accounts
+                        Multiple accounts: To prevent fraud and abuse, Users are limited to one active account. Any additional account determined to be created to circumvent guidelines, promote competitive advantages, or mislead the Divyarth Infotech community will be disabled. Mass account creation may result in disabling of all related accounts. Note: any violations to Divyarth Infotehch&#39;s Terms and Conditions is cause for permanent suspension of all accounts
                         Selling accounts: You may not buy or sell Divyarth Infotech accounts;
                         You agree that you will not use any robot, spider, scraper or other automated means to access the Website for any purpose without our express written permission.
                         </Text>
                         
-                        <Text fontWeight={700} fontSize={{ md: 'lg' }} mb={4}>14. Your Account’s Security</Text>
+                        <Text fontWeight={700} fontSize={{ md: 'lg' }} mb={4}>14. Your Account&#39;s Security</Text>
                         <Text color={'gray.500'} fontSize={{ md: 'lg' }} mb={4} textAlign={'justify'}>
                         You are responsible for maintaining the security of your Account. You must immediately notify us of any unauthorized uses of your Account or any other breaches of security. If you have a suspicion that someone has unauthorized access to your Account, you must immediately notify us at contact@divyarthinfotech.com. You will shortly after receive a confirmation from our support department that they are handling the issue. Any attempt at unauthorized access (i.e. hacking) to the Website or any of our servers is illegal and will be prosecuted. We are entitled to block or close your Account if such unauthorized access happens through your Account or with the use of your passwords.
                         </Text>

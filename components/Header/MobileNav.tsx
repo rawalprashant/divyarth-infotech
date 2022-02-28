@@ -31,13 +31,10 @@ export const MobileNav = ({ isOpen }: MobileNavProps) => {
       top="60px"
       w={'full'}
       bg={'white'}
+      _dark={{ bg: "gray.800" }}
       minH={'calc(100vh - 60px)'}
       css={{
         backdropFilter: 'saturate(180%) blur(5px)',
-        backgroundColor: useColorModeValue(
-          'rgba(255, 255, 255, 0.8)',
-          'rgba(26, 32, 44, 0.8)'
-        ),
       }}>
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
@@ -92,8 +89,8 @@ const MobileNavItem = ({ href, children, label }: NavItem) => {
           borderColor={useColorModeValue('gray.200', 'gray.700')}
           align={'start'}>
           {children &&
-            children.map((child) => (
-              <NextLink href={child.href!} passHref={true}>
+            children.map((child, index) => (
+              <NextLink href={child.href!} passHref={true} key={index}>
                 <Link key={child.label} py={2}>
                   {child.label}
                 </Link>

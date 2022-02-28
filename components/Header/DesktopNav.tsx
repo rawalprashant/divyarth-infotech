@@ -19,7 +19,7 @@ import NextLink from 'next/link';
 import { NAV_ITEMS, NavItem } from '@/components/Header/navData';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 
-const ListHeader = ({ children }: { children: ReactNode }) => {
+const ListHeader = ({ children }) => {
   return (
     <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
       {children}
